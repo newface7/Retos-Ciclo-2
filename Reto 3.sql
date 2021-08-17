@@ -27,10 +27,6 @@ FROM Proyecto p
 WHERE p.Ciudad LIKE 'B%'
 ORDER BY p.Ciudad
  
-
-
-
-
 --
 SELECT c.Proveedor, mc.Nombre_Material, mc.Importado, mc.Precio_Unidad, SUM(c.Cantidad) as Cantidad 
 FROM MaterialConstruccion mc
